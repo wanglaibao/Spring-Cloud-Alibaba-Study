@@ -6,6 +6,9 @@
     <groupId>com.laibao</groupId>
     <artifactId>spring-cloud-alibaba</artifactId>
     <version>1.0.0</version>
+    <modules>
+        <module>simple-nacos-provider</module>
+    </modules>
     <packaging>pom</packaging>
     
     <name>Spring Cloud Alibaba Demo</name>
