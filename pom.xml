@@ -8,7 +8,7 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     
-    <name>Spring boot cloud alibaba</name>
+    <name>Spring Cloud Alibaba Demo</name>
     <description>Spring Cloud Alibaba Study</description>
 
     <properties>
