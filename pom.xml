@@ -12,6 +12,7 @@
         <module>simple-nacos-feign-consumer</module>
         <module>simple-nacos-dubbo-api</module>
         <module>simple-nacos-dubbo-provider</module>
+        <module>simple-nacos-dubbo-consumer</module>
     </modules>
     <packaging>pom</packaging>
     
