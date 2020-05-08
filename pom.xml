@@ -9,6 +9,7 @@
     <modules>
         <module>simple-nacos-provider</module>
         <module>simple-nacos-ribbon-consumer</module>
+        <module>simple-nacos-feign-consumer</module>
     </modules>
     <packaging>pom</packaging>
     
