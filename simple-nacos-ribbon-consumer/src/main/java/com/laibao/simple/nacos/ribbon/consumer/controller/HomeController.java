@@ -18,7 +18,9 @@ public class HomeController {
         log.info("-----------------consumer调用开始-----------------");
         String param = "阿拉丁";
         log.info("消费者传递参数：" + param);
+        log.info("消费者传递参数：" + param);
         String result = restTemplate.getForObject("http://simple-nacos-provider/hello/" + param, String.class);
+        log.info("收到提供者响应：" + result);
         log.info("收到提供者响应：" + result);
         return "ribbon消费者，" + result;
     }
