@@ -11,6 +11,7 @@
         <module>simple-nacos-ribbon-consumer</module>
         <module>simple-nacos-feign-consumer</module>
         <module>simple-nacos-dubbo-api</module>
+        <module>simple-nacos-dubbo-provider</module>
     </modules>
     <packaging>pom</packaging>
     
@@ -29,7 +30,7 @@
             <dependency>
                <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <!--<version>2.2.5.RELEASE</version>-->
+                <!--<version>2.2.5.RELEASE 这个版本太高了 与Spring Cloud Greenwich不兼容</version>-->
                 <version>2.1.9.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
